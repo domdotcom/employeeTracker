@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { prompt } = require("inquirer");
 const logo = require("asciiart-logo");
 const db = require("./db");
